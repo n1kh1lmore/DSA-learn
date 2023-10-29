@@ -26,5 +26,7 @@ public class second_smallest_largest {
         }
 
         getElement(arr, n);
+
+        sc.close();
     }
 }

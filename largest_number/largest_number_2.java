@@ -19,9 +19,9 @@ int max = arr[arr.length-1];
 for(int i = 0; i<=arr.length-1; i++){
     if(arr[i]>max){
         max = arr[i];
-    }
-
 }
-return max;
+// return max;
     }
+return max;
+}
 }
