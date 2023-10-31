@@ -54,5 +54,6 @@ return second_large;
 
         System.out.println("Second smallest is " +secondSmallest(arr, n));
         System.out.println("Second smallest is " +secondLargest(arr, n));
+        sc.close();
     }
 }
