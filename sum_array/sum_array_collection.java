@@ -10,16 +10,14 @@ public class sum_array_collection {
         int n = sc.nextInt();
         int[] arr = new int[n];
         for (int i = 0; i < n; i++) {
-        System.out.println("enter array index " + i);
-        arr[i] = sc.nextInt();
+            System.out.println("enter array index " + i);
+            arr[i] = sc.nextInt();
         }
 
         int sum = 0;
-sum += IntStream.of(arr).sum();
+        sum += IntStream.of(arr).sum();
 
         System.out.println(sum);
-
-
 
         sc.close();
     }
