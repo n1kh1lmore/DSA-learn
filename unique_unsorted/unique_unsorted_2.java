@@ -1,3 +1,5 @@
+package unique_unsorted;
+
 import java.util.HashMap;
 import java.util.Scanner;
 
