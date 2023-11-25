@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class unique_unsorted_2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        
         System.out.println("enter size of array");
         int n = sc.nextInt();
         int[] arr = new int[n];
